@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <meta name="description" content="Know-Your-Country. brings you with an exciting way for you to be able to check the weather condition of various countries... Try and give feedbacks at dev.shalom1@gmail.com">
+    <link rel="Website Icon" href="https://www.freeiconspng.com/uploads/globe-png-hd-1.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Know-Your-Country.</title>
+  </head>
+  <body>
+
+      <div class="container" id="container">
+        <div class="searchPlaceDiv"  id="searchPlaceDiv">
+          <input id="userInput" placeholder="Enter your country or city" autocomplete="on" class="searchBar" type="text">
+          <a id="iconSearch" href="#"><i aria-label="Search Button" class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+      </di>
+    <div class="weatherDiv" id="weatherDivCont">
+      <div id="" class="countryNameDiv">
+        <h3 id="weatherType"></h3>
+        <img id="weatherImg" alt="Weather Image">
+        <h4 id="temperature"></h4>
+        <h2 id="countryName"></h2>
+        <p id="weatherDescription"></p>
+      </div>
+      <hr>
+      <div id="weatherDetailsDiv" class="weatherDetails">
+  
+        <div id="humidityDiv" class="humidityDiv">
+          <i id="humidityIcon" class="fa-solid fa-water"></i>
+          <div>
+            <p id="humidity"></p>
+            <p id="humidityDesc"></p>
+          </div>
+        </div>
+  
+        <div id="windDiv" class="windDiv">
+          <i id="windSpeedIcon" class="fa-solid fa-wind"></i>
+          <div>
+            <p id="windSpeed"></p>
+            <p id="windSpeedDesc"></p>
+          </div>
+        </div>
+  
+        <div id="windDirDiv" class="windDirDiv">
+          <i id="windDirectionIcon" class="fa-solid fa-circle-arrow-up"></i>
+          <div>
+            <p id="windDirection"></p>
+            <p id="windDirectionDesc"></p>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/86c2fd87c2.js" crossorigin="anonymous"></script>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
+  
